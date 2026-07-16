@@ -14,11 +14,10 @@ when_to_use: >-
   Use when the user mentions Google Search Console / GSC / Webmaster Tools, asks
   whether pages are indexed, wants sitemap status or submission, wants ranking or
   impression data, or asks whether an SEO change paid off. Examples: "is my sitemap
-  submitted?", "is /maps/de_dust2 indexed?", "did the Turkish locale get any
+  submitted?", "is /pricing indexed?", "did the Turkish locale get any
   traffic?", "what's stuck on page 2?", "which pages are cannibalising each other?",
-  "check Search Console". Do NOT use for Bing (that is IndexNow — see
-  IndexNow — a separate API) or for on-page audits (use the
-  seo-audit skills).
+  "check Search Console". Do NOT use for Bing — that is IndexNow, a separate API.
+  Do NOT use for on-page audits — use the seo-audit skills.
 allowed-tools: Bash(curl:*) Bash(python3:*) Read Write
 ---
 
