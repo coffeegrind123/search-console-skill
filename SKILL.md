@@ -196,6 +196,18 @@ content silos. The point isn't the site; it's the questions worth asking of one.
 - **Check `www` never appears** in the `page` dimension if you 301 it to the apex. If
   it does, your redirect broke and you are splitting signals across two hosts.
 
+## Site-specific context (optional local overlay)
+
+**If `LOCAL.md` exists in this skill's directory, read it first.** It holds the
+property ID, the live setup state, and the site-specific structure/caveats for
+whatever site this install is pointed at — the things that make the recipes above
+concrete instead of theoretical.
+
+It is deliberately **gitignored**: it is per-install, and it tends to accumulate
+details (property IDs, internal structure, candid notes about which pages are weak)
+that belong on your disk and not in a public repo. Absent it, everything above still
+works — you just supply the property yourself.
+
 ## Reporting rules
 
 - **Lead with the number, then the caveat.** "`/tr/` 412 impressions, 3 clicks over

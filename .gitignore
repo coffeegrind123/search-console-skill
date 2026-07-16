@@ -7,3 +7,6 @@
 *.key
 .env
 .env.*
+
+# Per-install, site-specific overlay. Never commit — see SKILL.md.
+LOCAL.md
