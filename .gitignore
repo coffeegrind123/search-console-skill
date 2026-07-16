@@ -1,0 +1,9 @@
+# NEVER commit credentials. The skill reads them from $HOME, never from the repo.
+*.json
+!package.json
+*service_account*
+*service-account*
+*.pem
+*.key
+.env
+.env.*
